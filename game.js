@@ -60,7 +60,8 @@ function checkWinner(){
     }
 
     if(roundWon){
-        statusText.textContent = `${currentPlayer} wins!`;
+        statusText.textContent = "Ура! Победа! Пароль:143"
+       // statusText.textContent = `${currentPlayer} wins!`;
         running = false;
     }
     else if(!options.includes("")){
